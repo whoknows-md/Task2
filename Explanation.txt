@@ -1,0 +1,23 @@
+1. Sender Address 
+   * From address : BANCO DO BRADESCO LIVELO 
+   * email address : <banco.bradesco@atendimento.com.br>
+   * suspicious : @atendimento.com.br
+   * original : @bradesco.com.br
+   
+2. Email Header Authentication
+   * SPF : temperrror
+   * DKIM : none
+   * DMARC : temperror
+   * CompAuth : fail
+   
+3. IP address 
+   * IP : 137.184.34.4 
+   * Organization : DigitalOcean (third party cloud service provider)
+   
+4. Attachments
+   * Content-Transfer-Encoding : base64
+   * May contain malicious links  (text / html)
+
+5. Urgency
+   * Subject : Seu cartão tem 92.990 pontos LIVELO expirando hoje!
+   * Subject translation : Your card has 92,990 LIVELO points expiring today! 
